@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .container{
+            width: 100%;
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: repeat(5, auto);
+            grid-gap: 10px;
+            justify-items: center;
+            font-family: Lato, SansSerif;
+            background: linear-gradient(45deg, rgba(0,117,196,0.5), rgba(239,159,11,0.5));
+        }
+        #image{
+            display: block;
+            margin: auto;
+            width: 463.5px;
+            max-height: 695px;
+            max-width: 100%;
+            border-radius: 5%;
+        }
+        #timeline{
+            justify-self: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Guru Nanak Tribute</title>
+</head>
+<body>
+<main id="main">
+    <div class="container">
+        <h1 id="title">Guru Nanak Dev Ji</h1>
+        <p>The founder of Sikhism</p>
+        <div id="img-div">
+            <figure><img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Mural_painting_of_Guru_Nanak_from_Gurdwara_Baba_Atal_Rai.jpg" id="image">
+                <br><figcaption id="img-caption">19th century mural painting from Gurdwara Baba Atal depicting Nanak</figcaption></figure>
+        </div>
+        <div id="timeline">
+            <h2 id="tribute-info">Here's a time line of Guru Nanak Dev Ji's Life:</h2>
+            <ul>
+                <li><strong>1469</strong> - born in Rai Bhoi Ki Talvandi (present day Punjab, Pakistan)</li>
+                <li><strong>1476</strong>- enrolled at the village school</li>
+                <li><strong>1487</strong> - marries Sulakhani in Batala</li>
+                <li><strong>1494</strong> - first son, Sri Chand, was born</li>
+                <li><strong>1496</strong> - left his family to travel in spiritual pursuits, called "Udasis"</li>
+                <li><strong>1497</strong> - second son, Lakhmi Chand, was born</li>
+                <li><strong>1524</strong> - moved to Kartarpur</li>
+                <li><strong>1539</strong> - dies in Kartarpur (present day Pakistan) at the age of 70  </li>
+            </ul>
+        </div>
+        <div>
+            <h2>If you have time, you should read more about this incredible human being on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Guru_Nanak" target="_blank"> his Wikipedia entry</a></h2>
+        </div>
+    </div>
+</main>
+</body>
+</html>
